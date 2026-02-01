@@ -8,13 +8,13 @@ const CONFIG = {
     valentineName: "Lalida",
 
     // The title that appears in the browser tab
-    // You can use emojis! 💝 💖 💗 💓 💞 💕
+    // You can use emojis!
     pageTitle: "Will You Be My Valentine, Schatz? 🩵",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '🩵', '😘', '💓'],  // Heart emojis
+        hearts: ['💖', '🩵', '😘'],  // Heart emojis
         bears: ['🐥', '🥬']                       // Cute bear emojis
     },
 
@@ -22,7 +22,7 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
+            text: " Do you like me ?",                                    // First interaction
             yesBtn: "Ja",                                             // Text for "Yes" button
             noBtn: "Nein",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
@@ -42,22 +42,22 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀🩵",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀🩵",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "Ohhh wirklich?! sub2:50?? 🥰🚀🩵",  // Shows when they go past 5000%
+        high: "sub3! 🚀🩵",              // Shows when they go past 1000%
+        normal: "sub4 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 😭🩵🩵🩵",
         message: "Now come get your gift, a big warm hug and a huge kiss😘🐥🩵!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        emojis: "💖💖💖"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
+        backgroundStart: "#4fb7b3",      // Gradient start (try pastel colors for a soft look)
         backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
