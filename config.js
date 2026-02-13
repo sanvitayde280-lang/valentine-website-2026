@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     
-    valentineName: "Lalida",
+    valentineName: "FER",
 
     // The title that appears in the browser tab
     // You can use emojis!
-    pageTitle: "Will You Be My Valentine, Schatz? 🩵",
+    pageTitle: "Will You Be My Valentine, Fer? 🩵",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -25,10 +25,10 @@ const CONFIG = {
             text: " Do you like me ?",                                    // First interaction
             yesBtn: "Ja",                                             // Text for "Yes" button
             noBtn: "Nein",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I don't like you, I HATE YOU! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "How much do you hate me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
